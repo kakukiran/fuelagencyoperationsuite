@@ -13,7 +13,6 @@
 - **Account Activation/Deactivation**: Easily manage connection status  
 -  **Automated Email Notifications**: Send alerts for registration, profile updates, and account changes  
 
----
 
 ### 2️⃣ Supplier Management Module
 -  **Supplier Registration & ID Generation**: Add new suppliers with unique tracking IDs  
@@ -21,22 +20,18 @@
 -  **Deactivation & Removal**: Maintain an up-to-date supplier list  
 -  **Automated Notifications**: Email alerts on supplier changes and updates  
 
----
-
 ### 3️⃣ Cylinder Management Module
 -  **Cylinder Registration & Tracking**: Log cylinder details including weight, type, and current status  
 -  **Return & Status Updates**: Track returned cylinders and update availability  
 -  **Refilling & Restocking**: Monitor cylinder inventory and manage refills  
 -  **Stock Monitoring & Alerts**: Automatic low-stock alerts and restocking notifications  
 
----
 
 ### 4️⃣ Booking Module
 - **Booking Rules & Limits**: Enforces 30-day booking gaps and max 6 cylinders/year per customer  
 - **Payment Mode Selection**: Allows flexible payment options during booking  
 - **Automated Billing**: Generates itemized bills with surcharges for over-limit bookings  
 
----
 
 ### 5️⃣ Report Management Module
 - **Customer Booking Insights**: Identify high-frequency customers for analytics  
@@ -52,6 +47,8 @@
 - **Frontend**: Thymeleaf  
 - **Security**: Spring Security  
 - **Build Tool**: Maven
+
+  ---
 
 ## 🚀 Installation & Configuration
 
@@ -106,6 +103,8 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+---
+
 ## 🔧 Initial Data Population (Using Postman)
 
 ### Create Admin User
@@ -127,6 +126,9 @@ Content-Type: application/json
   "role": "ADMIN"
 }
 ```
+
+---
+
 ## 🌐 System Workflows
 
 ### Customer Journey
